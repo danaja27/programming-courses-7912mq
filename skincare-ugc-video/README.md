@@ -33,3 +33,11 @@ library sounds from AI Producer (OpusClip), mixed with the clips' own recorded t
 | 8.02 | Pop - Warm 01 (inner seal) | -12 dB |
 | 9.55 | Whoosh - Airy Smooth 01 (dissolve to macro) | -15 dB |
 | 14.21 | Swoosh - Warm Slow 01 (hero) | -15 dB |
+
+## v3: middle/end sounds reworked
+
+`collagen-cream-ugc-1080x1920-v3.mp4`: opening kept from v2 (reveal whoosh, rotation ticks + the jar's own taps,
+lid-twist ratchet). From 5.6 s on, a sound plays only on a visible physical action:
+Click - Airy 01 on the lid touching down (6.59 s, -9 dB), Click - Airy 02 as the inner seal comes free
+(7.86 s in / 8.05 s hit, -12 dB). Recorded lid rustle, Pop, and the macro/hero whooshes removed; cream
+moments and the hero shot are silent. -23.3 LUFS, -1 dBFS peak.
