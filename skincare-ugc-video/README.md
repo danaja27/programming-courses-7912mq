@@ -41,3 +41,7 @@ lid-twist ratchet). From 5.6 s on, a sound plays only on a visible physical acti
 Click - Airy 01 on the lid touching down (6.59 s, -9 dB), Click - Airy 02 as the inner seal comes free
 (7.86 s in / 8.05 s hit, -12 dB). Recorded lid rustle, Pop, and the macro/hero whooshes removed; cream
 moments and the hero shot are silent. -23.3 LUFS, -1 dBFS peak.
+
+## Silent version
+
+`collagen-cream-ugc-1080x1920-silent.mp4`: same picture, silent audio track (for adding sound or music directly in Instagram/TikTok).
