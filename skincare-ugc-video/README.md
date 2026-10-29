@@ -18,3 +18,18 @@ No music; sound design only (-24.8 LUFS integrated, -1 dBFS peak).
 `scripts/render.py` (video: HLG decode, per-shot white balance, selective yellow-green despill,
 sub-pixel push-ins, rotation alignment) and `scripts/audio.py` (sound design) reproduce the edit
 from the original iPhone clips.
+
+## v2: library sound effects
+
+`collagen-cream-ugc-1080x1920-v2-library-sfx.mp4`: same picture; synthesized foley replaced by recorded
+library sounds from AI Producer (OpusClip), mixed with the clips' own recorded taps and lid contact
+(`scripts/audio_real.py`). -23.4 LUFS, -1 dBFS peak.
+
+| Out (s) | Sound | Gain |
+|---|---|---|
+| 1.38 | Whoosh - Airy Smooth 02 (reveal) | -10 dB |
+| 1.99 / 2.69 / 3.39 | Gear - Middle 01 (rotation ticks) | -8 / -9 / -8 dB |
+| 4.20 | Gear - Smooth and Premium 01 (lid twist) | -6 dB |
+| 8.02 | Pop - Warm 01 (inner seal) | -12 dB |
+| 9.55 | Whoosh - Airy Smooth 01 (dissolve to macro) | -15 dB |
+| 14.21 | Swoosh - Warm Slow 01 (hero) | -15 dB |
