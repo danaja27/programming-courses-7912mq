@@ -45,3 +45,25 @@ moments and the hero shot are silent. -23.3 LUFS, -1 dBFS peak.
 ## Silent version
 
 `collagen-cream-ugc-1080x1920-silent.mp4`: same picture, silent audio track (for adding sound or music directly in Instagram/TikTok).
+
+## v4: smooth transitions + Arabic captions (no sound)
+
+Same graded shots and cut points as v1-v3 (18.1 s, 544 frames), no audio (silent AAC track) so sound can be added in CapCut.
+
+- `collagen-cream-ugc-v4-transitions-text-nosound.mp4`: with animated Arabic captions (Readex Pro / Cairo).
+- `collagen-cream-ugc-v4-transitions-clean-nosound.mp4`: identical, without captions.
+
+| Cut (s) | Transition | Frames |
+|---|---|---|
+| 2.00 | soft light bloom (hook -> rotation) | 12 |
+| 4.10 | zoom push-through (rotation -> lid twist) | 10 |
+| 5.90 | cross-dissolve | 10 |
+| 7.50 | blur dissolve | 10 |
+| 9.83 | zoom push-through into the cream macro | 12 |
+| 11.83 | blur dissolve | 10 |
+| 13.63 | cross-dissolve | 8 |
+| 14.63 | soft light bloom into the hero | 14 |
+
+Captions: "خلّوني فرجيكن كريمي المفضّل" (0.25-1.7 s), "كريم الكولاجين" (2.3-3.9), "يلّا نفتحه" (4.35-5.7),
+"شوفوا القوام" (7.8-9.55), "ناعم وكريمي" (10.15-11.6), "بيتوزّع بسهولة" (12.05-14.4), then the claims printed on the
+jar's label as a checklist from 15.0 s. Built by `scripts/render_v4.py` + `scripts/overlays.py`.
